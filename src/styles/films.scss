@@ -1,0 +1,74 @@
+.films-flex{
+    display: flex;
+    gap: 100px;
+}
+
+.films {
+    margin-top: 10px;
+
+    &__container{
+        margin-left: 50px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input{
+        width: 450px;
+    }
+
+    &__subheading{
+        display: block;
+    }
+
+    &__btn{
+        margin-top: 20px;
+        width: 450px;
+    }
+}
+
+.cinema {
+    margin-top: 10px;
+
+    &__container{
+        margin-left: 50px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        align-items: center;
+    }
+
+    &__btn{
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    &__span{
+        margin-top: 20px;
+    }
+}
+
+.undefined-info {
+    padding: 15px;
+    flex: 50%;
+  }
+  
+  .card {
+    margin: 15px 5px;
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .loader{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: darkred;
+  }
+
